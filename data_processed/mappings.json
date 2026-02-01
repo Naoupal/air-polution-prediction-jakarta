@@ -1,0 +1,45 @@
+{
+  "kategori_mapping": {
+    "BAIK": 0,
+    "SEDANG": 1,
+    "TIDAK SEHAT": 2,
+    "SANGAT TIDAK SEHAT": 3,
+    "BERBAHAYA": 4,
+    "TIDAK ADA DATA": -1
+  },
+  "stasiun_mapping": {
+    "DKI1": 1,
+    "DKI2": 2,
+    "DKI3": 3,
+    "DKI4": 4,
+    "DKI5": 5
+  },
+  "feature_cols": [
+    "pm_sepuluh",
+    "pm_duakomalima",
+    "sulfur_dioksida",
+    "karbon_monoksida",
+    "ozon",
+    "nitrogen_dioksida",
+    "max",
+    "temp_max",
+    "temp_min",
+    "temp_mean",
+    "temp_range",
+    "year",
+    "month",
+    "day",
+    "day_of_year",
+    "day_of_week",
+    "is_rainy_season",
+    "ndvi",
+    "stasiun_encoded",
+    "max_lag_1",
+    "max_lag_2",
+    "max_lag_3",
+    "max_lag_7",
+    "max_rolling_7d_mean",
+    "max_rolling_7d_std"
+  ],
+  "target_col": "kategori_encoded"
+}
